@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#uses while if elif and else to display best school everytime except the 4th and 8th time where it displays bad luck and good luck respectivly.
 i=1
 while ((i<=10)) ; do
 	if [ $i = 8 ]; then
