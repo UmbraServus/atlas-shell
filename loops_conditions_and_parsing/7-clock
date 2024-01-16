@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#counts hours 0 - 12 and minutes 1 - 59 and displays them
+hrs=0
+while ((hrs<=12)); do
+	echo "Hour: $hrs"
+	mins=1
+while ((mins<=59)); do
+	echo "$mins"
+	((mins++))
+done
+	((hrs++))
+done
