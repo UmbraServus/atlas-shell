@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Uses until loop to print best school 10 times.
+i=0
+until ((i==10)); do echo "Best School"; ((i++)); done
