@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#lists out current directory files with no numbers or hypens at the beginning.
+for i in *; do
+	echo "${i#*-}"
+done
