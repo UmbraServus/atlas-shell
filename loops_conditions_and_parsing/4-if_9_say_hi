@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #prints best school 10 times and on the 9th it prints hi on a new line after best school.
 i=1
-while (($i<=10)); do 
+while ((i<=10)); do 
 	if [ $i = 9 ]; then 
 		echo -e "Best School\nHi"
        	else
