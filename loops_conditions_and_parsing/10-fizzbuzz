@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#displays 1 - 100 and fizzbuzz at every 3 and 5 common multiple and fizz for every multiple of 3 and buzz for 5
+for i in {1..100};do
+	if (( i % 3 == 0 && i % 5 == 0 ))
+	then
+		echo "FizzBuzz"
+	elif (( i % 3 == 0 ))
+	then
+		echo "Fizz"
+	elif (( i % 5 == 0 ))
+	then
+		echo "Buzz"
+	else
+		echo "$i"
+	done
